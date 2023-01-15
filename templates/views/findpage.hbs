@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet " href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRAVEL BUDZZ</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <h2 class="findPage">Find A Buddy</h2>
+    <form action="/findpage" method ="post">
+        <div class="findForm">
+            <label for="TrainNo"><b>Train Number</b></label>
+            <input type="number" placeholder="Enter Train Number" name="TrainNo" required>
+            <br>
+            <label for="Date"><b>Date of Travel</b></label>
+            <input type="date" name="Date" required>
+            <br>
+            <button class="Button submit2" type="submit" onclick="viewBuddy()">Find Your Buddy</button>
+        </div>
+    </form>
+   <script src="script.js"></script>
+</body>
+</html>

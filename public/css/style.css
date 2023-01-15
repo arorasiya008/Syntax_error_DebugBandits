@@ -1,0 +1,151 @@
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: 'EB Garamond', serif;
+}
+h1 {
+    text-align: center;
+    color:rgb(107, 85, 22);
+    font-size:45px ;   
+}
+h2{
+    text-align: center;
+    color:rgb(144, 135, 135);
+    font-size: 100px;
+    position: absolute;
+    top: 100px;
+}
+th{
+   font-size:25px;
+   font-weight: bold;
+   color:rgb(255,255,255);
+   font-family: 'EB Garamond', serif;
+   text-align: center;
+   border-style: solid;
+}
+td{
+    font-size:20px;
+    color:rgb(255,255,255);
+    font-family: 'EB Garamond', serif;
+    border-style: solid;
+}
+.findPage{
+    left:475px;
+}
+.loginPage{
+    left: 650px;
+}
+.signupPage{
+    right: 550px;
+}
+.registerPage{
+    left:300px;
+}
+p{
+    text-align: center;
+    color:rgb(255, 255, 255);
+    font-size:15px;
+}
+label{
+    text-align: justify;
+    display: inline-block;
+    color:rgb(255, 255, 255);
+    width:100px;
+    font-size:15px;
+}
+.placeholder{
+    text-align: justify;
+}
+/* css for button */
+.Button{
+    color:rgb(101, 81, 8);
+    font-size: 20px;
+    height:35px;
+    background-color: rgb(189, 115, 4); 
+    padding:2px 2px 2px 2px;
+    background-size: contain;
+    margin-right:0;
+    margin-left:0;
+    position:absolute ;
+    text-decoration-style: solid;
+    text-align: center;    
+}
+.login{
+    right:350px;
+    top:40px;
+    width:65px;  
+    color:rgb(139, 125, 19) ;
+}
+.signUp{
+    right:200px;
+    top:40px;
+    width: 100px;  
+}
+
+.Button:hover{
+    background: rgb(208, 188, 9);
+    font-size: 25px;
+}
+
+/* Bordered form */
+form{
+    
+    position:absolute;
+    top:300px;
+    left:550px;
+}
+  
+  /*inputs */
+  input[type=text], input[type=password],input[type=number],input[type=date] {
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align: left;
+  }
+.submit{
+    position: absolute;
+    top:125px;
+    right:130px;
+    box-sizing: border-box;
+}
+.submit2{
+    position: absolute;
+    top:125px;
+    right:75px;
+}
+.submit3{
+    position: absolute;
+    top: 250px;
+    right:55px;
+}
+
+input[type=radio]{
+    text-align: right;
+    width: 30px;
+    height: 30px;
+    
+    
+}
+.submit1{
+    position: absolute;
+    top: 390px;
+    right: 130px;
+    
+}
+.button2{
+    background-color:rgb(144, 135, 135);
+    font-size: large;
+    font-weight: 200;
+    
+}
+.navigate{
+    background-image: url("navigate1.jpg");
+    background-size: cover;
+    color:rgb(255, 255, 255)
+}
+.navigate:hover{
+    background-image: url("navigate2.jpg");
+    font-size: 25px;
+}

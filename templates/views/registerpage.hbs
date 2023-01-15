@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet " href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRAVEL BUDZZ</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <h2 class="registerPage">Register as A Buddy</h2>
+    <form action="/registerpage" method ="POST">
+        <div class="registerForm">
+            <label for="TrainNo"><b>Train Number</b></label>
+            <input type="number" placeholder="Enter Train Number" name="TrainNo" required>
+            <br>
+            <label for="Date"><b>Date of Travel</b></label>
+            <input type="date" name="Date" required>
+            <br>
+            <label for="Entry" required><b>Entry Station</b></label>
+            <input type="text" placeholder="Enter Station of Entry" name="Entry" required>
+            <br>
+            <label for="Exit" required><b>Destination Station</b></label>
+            <input type="text" placeholder="Enter Destination Station" name="Exit" required>
+            <br>
+            <button class="Button submit3" type="submit" onclick="Option1()">Register as a Buddy</button>
+        </div>
+        
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>

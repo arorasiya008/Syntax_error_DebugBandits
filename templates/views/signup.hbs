@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet " href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRAVEL BUDZZ</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<h2 class="signupPage">Sign Up</h2>
+<form action="/signup" method="POST">
+    <div class="loginForm">
+      <label for="uname" ><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+      <br>
+      <label for="email" ><b>Email-ID</b></label>
+      <input type="text"  placeholder="Enter Email-ID" name="email" required>
+      <br>
+      <label for="phn" ><b>Phone Number</b></label>
+      <input type="number"  placeholder="Enter Phone Number" name="phn" required>
+      <br>
+      <label for="age" ><b>Age</b></label>
+      <input type="number"  placeholder="Enter Age" name="age" required>
+      <br>
+      <label for="pswrd" ><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="pswrd" required>
+      <br>
+      <label for="confPswrd"><b>Confirm Password</b></label>
+      <input type="password" placeholder="Enter Password" name="confPswrd" required>
+      <br>
+      <button class="Button submit1" type="submit" onclick="checkPswrd()">Sign Up</button>
+    </div>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>
